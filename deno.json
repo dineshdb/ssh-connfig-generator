@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@std/csv": "jsr:@std/csv@^0.220.1",
+    "@std/path": "jsr:@std/path@^0.220.1",
+    "commander": "npm:commander@^12.0.0"
+  },
+  "name": "@util/ssh-config-generator",
+  "version": "0.1.0",
+  "exports": "./main.ts"
+}
